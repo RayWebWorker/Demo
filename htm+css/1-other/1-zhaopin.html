@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>zhaopin</title>
+<style>
+	.all{
+		border:1px solid #cccccc;
+		}
+	.wrapper{
+		width:600px;
+		height:600px;
+		margin:0 auto;
+		position:relative;
+		}
+	.wrapper div{
+		}
+	.wrapper .wrapper-left{
+		width:300px;
+		height:600px;
+		}
+	.wrapper .wrapper-right{
+		position:absolute;
+		top:-15px;
+		right:50px;
+		width:300px;
+		height:600px;
+		}
+	.wrapper .wrapper-right form{
+		margin-top:0px;
+		}
+	.main{
+		width:600px;
+		height:400px;
+		margin:0 auto;
+		position:relative;
+		}
+	.main div{
+		}
+	.main .main-left{
+		width:300px;
+		height:400px;
+		}
+	.main .main-right{
+		position:absolute;
+		top:-15px;
+		right:50px;
+		width:300px;
+		height:400px;
+		}
+	.main .main-right form{
+		margin-top:0px;
+		}
+	.bottom{
+		width:600px;
+		height:300px;
+		margin:0 auto;
+		}
+	.bottom .button{
+		width:200px;
+		height:30px;
+		background-color:#4481da;
+		font-weight:500;
+		color:#f8ffff;
+		margin-left:133px;
+		}
+</style>
+</head>
+<body>
+<p><strong>完整的简历可以帮助你获取理想的工作机会，赶快开始创建吧！</strong></p>
+<br />
+<br />
+<div class="all">
+<p>个人信息</p>
+<hr />
+<div class="wrapper">
+	<div class="wrapper-left">
+    	<p>姓名</p>
+        <p>性别</p>
+        <p>出生日期</p>
+        <p>参加工作年份</p>
+        <p>户口所在地</p>
+        <p>现居住城市</p>
+        <p>联系方式</p>
+        <p>电子邮箱</p>
+        <p>婚姻状况</p>
+        <p>国籍</p>
+        <p>证件</p>
+        <p>海外工作学历经历</p>
+        <p>政治面貌</p>
+    </div>
+    <div class="wrapper-right">
+    	<form>
+        	<p><input type="text" /></p>
+            <p><input type="radio" name="gender" />男<input type="radio" name="gender" />女</p>
+            <p><input type="text" />年<input type="text" />月</p>
+            <p><select>
+            	<option>2009年3月</option>
+                <option>2009年4月</option>
+                <option>2010年3月</option>
+            </select>
+            </p>
+            <p><select>
+            	<option>北京</option>
+                <option>成都</option>
+                <option>上海</option>
+            </select></p>
+            <p>
+            <select>
+            	<option>北京</option>
+                <option>成都</option>
+                <option>上海</option>
+            </select>
+            </P>
+            <p>
+            <input type="text" /> 
+            </p>
+            <p>
+            <input type="text" /> 
+            </p>
+             <p>
+            <select>
+            	<option>中国大陆</option>
+                <option>台湾</option>
+                <option>国外</option>
+            </select>
+            </P>
+            <p>
+            	<select>
+            	<option>身份证</option>
+                <option>户口簿</option>
+                <option>签证</option>
+            </select>
+            <input type="text" />
+            </p>
+            <p>
+            	<input type="radio" name="experience" />有<input type="radio" name="experience" />无
+            </p>
+            <p>
+            <input type="radio" name="line" />中国共产党员
+             <input type="radio" name="line" />团员
+              <input type="radio" name="line" />群众
+               <input type="radio" name="line" />民进党人士
+            </p>
+        </form>
+    </div>
+</div>
+<p>求职意向</p>
+<hr />
+<div class="main">
+	<div class="main-left">
+    	<p>期望工作性质</p>
+        <p>期望工作地点</p>
+        <p>期望从事职业</p>
+        <p>期望从事行业</p>
+        <p>期望月薪（税前）</p>
+        <p>工作状态</p>
+        <p><input type="checkbox" checked="checked" /> 将此求职意向显示在我的简历中</p>
+    </div>
+    <div class="main-right">
+    	<form>
+        	<p><input type="checkbox" />全职
+            <input type="checkbox" />兼职
+            <input type="checkbox" />实习
+            </p>
+            <p>
+            <select><option>选择/修改</option>
+            </select>
+            </p>
+             <p>
+            <select><option>选择/修改</option>
+            </select>
+            </p>
+             <p>
+            <select><option>选择/修改</option>
+            </select>
+            </p>
+             <p>
+            <select><option>请选择</option>
+            </select>/月
+            </p>
+            <p>
+            	<input type="text" value="我目前处于离职状态，可立即上岗" 
+            </p>
+        </form>
+    </div>
+</div>
+			<p>自我评价</p>
+			<hr />
+            <div class="bottom">
+            <p>
+            	<font color="#a4a4a4">
+                请简述你的工作业绩、拥有的技能及特殊的专长，以更好的向企业展现自己。</font>
+            </p>
+            <p>标题 
+             <select><option>自我评价</option>
+            </select>
+            </p>
+            <span>内容</span>
+            <textarea rows="10" cols="20"></textarea>
+            <p><input class="button" type="button" value="保存并下一步"></p>
+            </div>
+            </div>
+</body>
+</html>

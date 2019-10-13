@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+    font-size:14px;
+}
+a{
+    text-decoration:none;
+}
+/* 开始 */
+.top{
+    height: 63px;
+    background-color:#232323;
+}
+.top .topContent{
+    width:1003px;
+    margin:0 auto;
+}
+.top .topContent .header{
+    width:1003px;
+    height:63px;
+}
+.top .topContent .header h1{
+    height: 63px;
+    width:169p;
+    float: left;
+    line-height:63px;
+}
+.top .topContent .header h1 a{
+    height:157px;
+    width:37px;
+    float:right;
+}
+.top .topContent .header ul{
+    width:800px;
+    height:63px;
+    float: right;
+}
+.top .topContent .header ul span{
+    height: 17px;
+    width:0;
+    border-width:1px;
+    border-style:solid;
+    border-left-color:#444444;
+    border-right-color:#000000;
+    margin-top:23px; 
+    float: left;
+}
+.top .topContent .header ul li{
+    float: left;
+    width:54px;
+    height:17px;
+    line-height:16px;
+    text-align: center;
+    padding:23px 13px;
+}
+.top .topContent .header ul li:nth-child(1){
+    width:26px;
+}
+.top .topContent .header ul li:hover{
+    background-color:#f15a23;
+}
+.top .topContent .header ul li a{
+    font-size:12px;
+    color:#fff;
+}
+/* 导航栏结束 */
+.containimage{
+    height:267px;
+    background:url(../images/some.png) center center;
+}
+.contain{
+    height: 44px;
+    background-color:#fff;
+    border-bottom:1px solid #ccc;
+}
+.contain .wrapper{
+    width:1003px;
+    height:42px;
+    margin:0 auto;
+}
+.contain .wrapper .banner{
+    height: 42px;
+    width:115px;
+    padding-left:19px;
+    vertical-align:middle;
+    line-height:42px;
+    background:url(../images/tu_10.png) no-repeat left center;
+}
+.contain .wrapper .banner a{
+    color:#666666;
+}
+.bottom{
+    height:860px;
+}
+.bottom .bottomContent{
+    padding-top:20px;
+    width:1003px;
+    height:500px;
+    margin:0 auto;
+}
+.bottom .bottomContent{
+    line-height:40px;
+    text-indent:2em;
+}
+.bottom .bottomContent p:nth-child(3){
+    width:236px;
+    margin-left:32px;
+    text-indent:0;
+}
+.bottom .bottomContent p:nth-child(5){
+    font-size:30px;
+}
+/* 内容结束 */
+.footer {
+    height:215px;
+    background-color:#222222;
+}
+.footer .footerContent{
+    width:1003px;
+    margin:0 auto;
+}
+.footer .footerContent .left{
+    width: 490px;
+    height: 180px;
+    float: left;
+}
+.footer .footerContent .top{
+    width: 480px;
+    height:37px;
+    padding-top: 30px;
+    padding-left:10px;
+}
+.footer .footerContent .top li{
+    float:left;
+    width: 96px;
+    height: 14px;
+    font-size:14px;
+    color:#ffffff;
+}
+.footer .footerContent .bottom{
+    width: 480px;
+    height:86px;
+    padding-bottom: 30px;
+    padding-left:10px;
+}
+.footer .footerContent .top a,
+.footer .footerContent .bottom a{
+    font-size:12px;
+    color:#fff;
+}
+.footer .footerContent .bottom li{
+    width: 96px;
+    height: 14px;
+    font-size:14px;
+    float:left;   
+    color:#9b9b9b; 
+   margin-top:10px;  
+}
+
+.footer .footerContent .center {
+    width:316px;
+    height:180px;
+    border-left:1px solid #3a3a3a;
+    float: left;
+    text-align:center;
+}
+/* 产品中间结束 */
+/* 产品二维码 */
+.footer .footerContent .right{
+    width:192px;
+    height: 180px;
+    border-left:1px solid #3a3a3a;
+    float: left;
+    text-align:center;
+}
+.footerLast{
+    height:40px;
+    background-color:#101010;
+    color:#fff;
+    text-align:center;
+}

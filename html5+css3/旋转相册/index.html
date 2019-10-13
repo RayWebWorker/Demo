@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>旋转相册</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        .contain{
+            list-style: none;
+            width: 200px;
+            height: 200px;
+            margin:200px auto;
+            /* border:1px solid red;  */
+            position:relative;
+            transform-style: preserve-3d;
+            transform: rotateX(-30deg);
+            animation:play 8s linear infinite;
+        }
+        img{
+            width:100%;
+            height: 100%;
+            transition: all 1s linear;
+        }
+        .contain:hover{
+            animation-play-state:paused;
+        }
+        ul:hover li{
+            opacity:.4;
+        }
+        ul li:hover{
+            opacity:1;
+        }
+        ul li:hover img{
+            transform: scale(1.5,1.5);
+        }
+        .contain li{
+            width:200px;
+            height:200px;
+            position: absolute;
+            /* background-size: 100%; */
+            /* opacity: .5; */
+        }
+        @keyframes play {
+            0%{}
+            100%{
+                transform: rotateX(-30deg) rotateY(360deg);
+            }
+        }
+        body{
+            background:url(./images/j.jpg);
+        }
+        .contain li:nth-child(1){
+            transform: rotateY(360deg) translateZ(200px);
+
+        }
+        .contain li:nth-child(2){
+            transform: rotateY(300deg) translateZ(200px);
+
+        }
+        .contain li:nth-child(3){
+            transform: rotateY(240deg) translateZ(200px);
+            
+        }
+        .contain li:nth-child(4){
+            transform: rotateY(180deg) translateZ(200px);
+           
+        }
+        .contain li:nth-child(5){
+            transform: rotateY(120deg) translateZ(200px);
+        }
+        .contain li:nth-child(6){
+            transform: rotateY(60deg) translateZ(200px);          
+        }
+    </style>
+</head>
+<body>
+    <ul class="contain">
+        <li><img src="./images/xzxc1.jpg" alt=""></li>
+        <li><img src="./images/xzxc2.jpg" alt=""></li>
+        <li><img src="./images/xzxc3.jpg" alt=""></li>
+        <li><img src="./images/xzxc4.jpg" alt=""></li>
+        <li><img src="./images/xzxc5.jpg" alt=""></li>
+        <li><img src="./images/xzxc6.jpg" alt=""></li>
+    </ul>
+</body>
+</html>

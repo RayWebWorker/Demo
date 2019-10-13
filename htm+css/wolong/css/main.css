@@ -1,0 +1,325 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+.contain{
+    width:1000px;
+    margin: 0 auto;
+}
+/* 头部*/
+.header{
+    /* background-color: #cccccc; */
+    height: 100px;
+}
+.header h1{
+    float: left;
+    width: 246px;
+    height:100px;
+}
+.header h1 a{
+    float:left;
+    width: 270px;
+    height:100px;
+    /* text-align: right; */
+    /* line-height: 100px; */
+}
+.header h1 a img{
+    float: right;
+    margin-top:36px;
+}
+.header .search{
+    width: 246px;
+    float: right;
+    padding-top:39px;
+    overflow: hidden;
+}
+.header .search input{
+    width:211px;
+    height: 26px;
+    border:1px solid #e5e5e5;
+    outline:none;
+    color: #a5a5a5;
+    /* background-color:#f0f0f0; */
+    padding-left:14px; 
+    background:#f0f0f0 url(../images/search_06.png) no-repeat center right;
+}
+/* 头部结束 */
+/* 导航栏开始 */
+.contain .nav {
+    /* border:1px solid black; */
+    /* display: block; */
+    height: 60px;
+    width:973px;
+    background-color:#2a2a2a;
+    padding-left:27px;
+}
+.contain .nav li{
+    float: left;
+    width: 119px;
+    height: 60px;
+    border-right:1px solid #4a4a4a; 
+}
+.contain .nav li a{
+    width: 100%;
+    font-size:14px;
+    color:#fbfbfb;
+    float: left;
+    text-align: center;
+    line-height:60px;
+}
+.contain .nav .lastLi{
+    border-right: none;
+}
+/* 导航栏结束 */
+/* 新闻部分开始 */
+.contain .news{
+    height: 242px;
+    background-color:#ccc;
+}
+.contain .news div{
+    float: left;
+}
+.contain .news .newsLeft{
+    width:452px;
+    height: 212px;
+    background-color:#fff;
+    padding-top:30px;
+    padding-left: 21px;
+    padding-right: 27px;
+}
+.contain .news .newsLeft p{
+    font-size:14px;
+    font-weight: 600;
+    height: 27px;
+    line-height: 27px;
+    background:url(../images/icon1_05.png) no-repeat center right;
+}
+
+/* 新闻资讯左边部分开始 */
+.contain .news .newsLeft ul{
+    width:453px;
+    height:157px;
+    padding-top:23px;
+}
+.contain .news .newsLeft ul li{
+    background:url(../images/point_03.jpg) no-repeat left center;
+}
+.contain .news .newsLeft ul li a{
+    margin-left: 13px;
+    font-size:12px;
+    color:#2a2a2a;
+}
+.contain .news .newsLeft ul li span{
+    color:#949494;
+    float: right;
+    font-size:12px;
+}
+/* 新闻资讯左边结束 */
+/* 新闻资讯中间开始 */
+.contain .news .newsCenter{
+    width:193px;
+    height:205px;
+    padding-top:37px;
+    padding-left: 25px;
+    padding-right: 22px;
+}
+.contain .news .newsCenter p{
+    font-size:14px;
+    font-weight:600;
+}
+.contain .news .newsCenter div{
+    padding-top:40px;
+    font-size:13px;
+    width: 126px;
+    height:38px;
+    line-height: 24px;
+}
+.contain .news .newsCenter .bottom{
+    height: 38px;
+    font-size: 13px;
+    width:193px;
+    padding-top: 96px;
+    font-weight: 500;
+    color:#b8b8b8;
+}
+/* 新闻资讯中间部分结束 */
+/* 新闻资讯右边部分开始 */
+.contain .news .newsRight{
+    width:218px;
+    height:206px;
+    padding-top:36px;
+    padding-left:25px;
+    padding-right: 17px;
+    background:url(../images/flower_13.png) no-repeat right bottom;
+    background-color:#fff;
+}
+.contain .news .newsRight p{
+    font-size:14px;
+    font-weight:600;
+}
+.contain .news .newsRight div{
+    width:181px;
+    height:36px;
+    padding-top:28px;
+    font-size:13px;
+    color:#5a5a5a;
+}
+.contain .news .newsRight img{
+    padding-top: 56px;
+}
+/* 新闻资讯结束 */
+.contain .marker{
+    height: 286px;
+    width:977px;
+    background-color:#fff;
+    padding-top:23px;
+    padding-left: 20px;
+}
+.contain .marker .top{
+    width:980px;
+    height:41px;
+}
+.contain .marker .top .letter{
+    font-size:14px;
+    font-weight:600;
+}
+.contain .marker .top .buttonLeft{
+    width:27px;
+    height:27px;
+    float: right;
+    margin-left:10px;
+    padding-left:10px;
+    background:url(../images/right_23.png) no-repeat;
+}
+.contain .marker .top .buttonRight{
+    width:27px;
+    height:27px;
+    float: right;
+    background:url(../images/left_21.png) no-repeat;
+}
+.contain .marker .bottom{
+    width:980px;
+    height:244px;
+}
+.contain .marker .bottom li{
+    float: left;
+    width: 221px;
+    height: 244px;
+    margin-right: 24px;
+}
+.contain .marker .bottom li p{
+    padding-top:23px;
+    font-size: 14px;
+    line-height: 28px;
+    color:#5a5a5a;
+}
+/* 卧龙市场结束 */
+/* 产品中心开始 */
+.contain .products{
+    width:975px;
+    height:220px;
+    padding-top:30px;
+    padding-left:25px;
+    background-color:#e5e5e5;
+}
+.contain .products .top .left{
+    width:456px;
+    height:28px;
+    float: left;
+    font-size:14px;
+    color:#646464;
+    margin-right: 38px;
+}
+.contain .products .top .center{
+    width:218px;
+    height:28px;
+    float: left;
+    font-size:14px;
+    color:#646464;
+}
+.contain .products .top .right{
+    width:263px;
+    height:28px;
+    float: left;
+    font-size:14px;
+    color:#646464;
+}
+/* 产品中心上半部分结束 */
+/* 产品中心下半部分开始 */
+.contain .products .bottom .left{
+    width:497px;
+    height:193px;
+    float: left;
+}
+.contain .products .bottom .left ul li{
+    width:155px;
+    /* margin-left:10px; */
+    color:#9f9f9f;
+    font-size:12px;
+    float: left;
+    height: 23px;
+}
+.contain .products .bottom .left ul li a{
+    color:#9f9f9f;
+    font-size:12px;
+}
+.contain .products .bottom .center{
+    width:218px;
+    height:193px;
+    float:left;
+}
+.contain .products .bottom .center ul li{
+    width:155px;
+    /* margin-left:10px; */
+    color:#9f9f9f;
+    font-size:12px;
+    float: left;
+    height: 23px;
+}
+.contain .products .bottom .center ul li a{
+    color:#9f9f9f;
+    font-size:12px;
+}
+.contain .products .bottom .left,
+.contain .products .bottom .center,
+.contain .products .bottom .right img{
+    padding-top:10px;
+    border-top:1px solid #c1c1c1;
+}
+/* 产品中心结束 */
+/* 底部开始 */
+.contain .footer{
+    width:978px;
+    height:58px;
+    padding-top:24px;
+    padding-left:22px;
+}
+.contain .footer .left{
+    float:left;
+    width:356px;
+    height:59px;  
+}
+.contain .footer .left ul{
+    width: 400px;
+}
+.contain .footer .left ul li{
+    float:left;
+    border-right: 1px solid #9f9f9f;
+    padding:0 10px;
+}
+.contain .footer .left ul li a{
+    font-size:14px;
+    color:#9f9f9f;
+}
+.contain .footer .left ul .last{
+    border-right: none;
+}
+.contain .footer .right {
+    float:left;
+    width:610px;
+    height:59px;  
+}

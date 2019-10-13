@@ -1,0 +1,207 @@
+.heart{
+    width:1173px;
+    margin: 0 auto;
+}
+header{
+    height:73px;
+    padding-top:20px;
+}
+header h1{
+    width: 181px;
+    height: 73px;
+    float: left;
+}
+header h1 img{
+    width:100%;
+    height:56px;
+}
+header .headerContent{
+    height:59px;
+    width:928px;
+    float: right;
+    padding-top: 15px;
+}
+header .headerContent .nav{
+    float: left;
+    height:59px;
+    width:716px;
+}
+header .headerContent .nav li{
+    float: left;
+    padding: 0 30px;
+    padding-bottom :36px;
+}
+header .headerContent .nav li:hover {
+    border-bottom:2px solid #e4392a;
+}
+header .headerContent .nav li a{
+    text-decoration: none;
+    font-size:14px;
+    font-weight: 500; 
+}
+header .headerContent .nav li:hover a{
+    color:#e4392a;
+}
+header .headerContent .tel{
+    height: 25;
+    width: 162px;
+    float: right;
+}
+header .headerContent .tel img{
+    height: 25px;
+    width: 25px;
+    float: left;
+}
+header .headerContent .tel span{
+    color:#e4392a;
+    font-size:14px;
+    margin-left: 12px;
+    float: left;
+}
+.banner{
+    height: 498px;
+    width: 1440px;
+    margin: 0 auto;
+    background: url(../images/banner_02.png) center center;
+    background-size:100%;
+}
+/* 集合*/
+.title{
+    padding-top: 56px;
+    margin-bottom: 23px;
+    text-align: center;
+    font-size:26px;
+    font-weight:600;
+    font-family: 'Micosoft Hei';
+}
+.next{
+    font-size:15px;
+    text-align: center;
+    margin-bottom: 59px;
+    font-family: 'Micosoft Hei';
+}
+.gray{
+    font-family: 'Micosoft Hei';
+    color:#cacace;
+}
+.red{
+    color:#e4392a;
+    font-family: 'Micosoft Hei';
+}
+.line{
+    display: block;
+    height:2px;
+    width:25px;
+    background-color: #707070;
+    margin:0 auto;
+}
+
+.center{
+    height: 627px;
+}
+.center .centerLast{
+    height: 446px;
+    width: 100%;
+}
+.center .centerLast li img{
+    width: 134px;
+    height: 134px;
+    margin: 0 auto;
+}
+.center .centerLast li{
+    width:212px;
+    height:100%;
+    float: left;
+    padding:0 40px;
+}
+.add{
+    font-size:14px;
+    font-weight: normal;
+}
+.center .centerLast li .content{
+    padding-top:40px;
+    font-size:14px;
+}
+.centerNext{
+    height:658px;
+    background-color: #f5f6fa;
+}
+.centerNext .centerNextLast{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    overflow: hidden;
+}
+.centerNext .centerNextLast li{
+    position: relative;
+    width:266px;
+    height:202px;
+    padding-bottom:30px;
+    overflow: hidden;
+}
+.centerNext .centerNextLast li img{
+    position: absolute;
+}
+.centerNext .centerNextLast li:hover img{
+    z-index: -1;
+}
+.centerNext .centerNextLast li:hover{
+    /* padding-top:232px; */
+    background-color: #e67829;
+}
+.arrow{
+    text-align: center;
+    height: 107px;
+    background-color: #f5f6fa;
+}
+.arrow span{
+    display: inline-block;
+    height: 65px;
+    width: 65px;
+    border-radius:50%;
+    background-color: #000014;
+    font-size:21px;
+    font-weight: 800;
+    line-height: 65px;
+    color:#fff;
+}
+.arrow span:hover{
+    background-color: #e67829;
+    color:#000;
+}
+.dynamic{
+    margin:0 auto;
+    width: 1388px;
+    height: 569px;
+    background: url(../images/wsdt.jpg) center center;
+}
+.connect{
+    height: 336px;
+    background-color: #f5f6fa;
+}
+.connect .information .top{
+    height: 33px;
+    width: 100%;
+}
+.connect .information .top .left{
+    height: 100%;
+    width:370px;
+    float: left;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.connect .information .top .left i{
+    display: block;
+    height: 30px;
+    width:30px;
+    margin-right: 13px;
+    background: url(../images/contact/contact_03.png) center center;
+}
+.connect .information .top .left span{
+    font-size:14px;
+}
+.connect .information .top .right{
+    float: right
+;
+}

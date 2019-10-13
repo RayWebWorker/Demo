@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>3D盒子</title>
+    <style>
+        *{
+            padding:0;
+            margin:0;
+        }
+        .contain{
+            list-style: none;
+            width: 300px;
+            height: 300px;
+            margin:200px auto;
+            /* border:1px solid red;  */
+            position:relative;
+            transform-style: preserve-3d;
+            transform: rotateX(-30deg) rotateY(30deg);
+        }
+        .contain li{
+            width:300px;
+            height:300px;
+            position: absolute;
+            background-size: 100%;
+            /* opacity: .5; */
+        }
+        .contain li:nth-child(1){
+            background-image: url(./images/xzxc1.jpg);
+            transform:rotateX(90deg) translateZ(-150px);
+        }
+        .contain li:nth-child(2){
+            background-image: url(./images/xzxc2.jpg);
+            transform:rotateX(90deg) translateZ(150px);
+        }
+        .contain li:nth-child(3){
+            background-image: url(./images/xzxc3.jpg);
+            transform: translateZ(-150px);
+            /* opacity: 1; */
+        }
+        .contain li:nth-child(4){
+            background-image: url(./images/xzxc4.jpg);
+            transform: translateZ(150px);
+        }
+        .contain li:nth-child(5){
+            background-image: url(./images/xzxc5.jpg);
+            transform: rotateY(90deg) translateZ(-150px);
+        }
+        .contain li:nth-child(6){
+            background-image: url(./images/xzxc6.jpg);
+            transform: rotateY(90deg) translateZ(150px);
+        }
+    </style>
+</head>
+<body>
+    <ul class="contain">
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>6</li>
+    </ul>
+</body>
+</html>

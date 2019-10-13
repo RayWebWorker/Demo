@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>旋转相册</title>
+    <style>
+        *{
+            padding:0 ;
+            margin:0;
+        }
+        img{
+            height: 100px;
+            width: 150px;
+        }
+        div{
+            margin:200px auto;
+            width:900px;
+            height: 100px;
+            border: 1px solid red;
+            overflow: hidden;
+        }
+        li{
+            width:150px;
+            height:100px;
+            float: left;
+        }
+        ul{
+            width: 1800px;
+            height:100px;
+            list-style: none;
+            animation:run 5s linear infinite;
+            /* transform: translateX(-900px); */
+        }
+        ul li{
+            opacity:.4;
+        }
+        ul:hover{
+            animation-play-state:paused;
+        }
+        ul li:hover{
+            opacity:1;
+        }
+        ul li:hover img{
+            transform:scale(1,1.5);
+            /* z-index: 5; */
+        }
+        @keyframes run{
+            0%{}
+            100%{
+                transform:translateX(-900px);
+            }
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <ul>
+                <li>
+                    <img src="./images/xzxc1.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc2.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc3.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc4.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc5.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc6.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc1.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc2.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc3.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc4.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc5.jpg" alt="">
+                </li>
+                <li>
+                    <img src="./images/xzxc6.jpg" alt="">
+                </li>
+        
+            </ul>
+</div>
+</body>
+</html>

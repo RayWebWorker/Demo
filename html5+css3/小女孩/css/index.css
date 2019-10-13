@@ -1,0 +1,42 @@
+*{
+    padding:0;
+    margin:0;
+}
+.contain{
+    width:200px;
+    height:300px;
+    margin:200px auto;
+    border:1px solid black;
+}
+.contain .box{
+    width:129px;
+    height:248px;
+    /* border:1px solid black; */
+    margin:20px auto;
+    background:url(../images/charector.png) no-repeat -31px -32px;
+    animation:girls 500ms step-start infinite;
+    /* animation-direction: reverse; */
+}
+@keyframes girls{
+    0%{
+        background:url(../images/charector.png) no-repeat -31px -32px;
+    }
+    12.5%{
+    background:url(../images/charector.png) no-repeat -213px -32px;
+    }
+    37.5%{
+        background:url(../images/charector.png) no-repeat -391px -32px;
+    }
+    50%{
+        background:url(../images/charector.png) no-repeat -582px -32px;
+    }
+    62.5%{
+        background:url(../images/charector.png) no-repeat -759px -32px;
+    }
+    87.5%{
+        background:url(../images/charector.png) no-repeat -927px -32px;
+    }
+    100%{
+        background:url(../images/charector.png) no-repeat -1118px -32px;
+    }
+}

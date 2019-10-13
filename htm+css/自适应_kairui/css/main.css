@@ -1,0 +1,158 @@
+@charset"utf-8";
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+/* 头部开始 */
+html,body{
+    width:100%;
+    height:100%;
+}
+.header{
+    height:78px;
+    background-color:#fff;
+}
+.header .headerContent{
+    padding-top:14px;
+    height:100%;
+    width:1000px;
+    /* border:1px solid black; */
+    margin:0 auto;
+}
+.header .headerContent h1{
+    height:100%;
+    width:14.8%;
+    float:left;
+    line-height:100%;
+}
+.header .headerContent h1 a{
+    display:block;
+    width:94%;
+    float: right;
+}
+.header .headerContent .headerContentNav{
+    width:64.2%;
+    height:100%;
+    float: right;
+}
+.header .headerContent .headerContentNav .navTop{
+    height:25%;
+    width:69.7%;
+    padding-bottom: 20px;
+    float: right;
+}
+.header .headerContent .headerContentNav .navTop li{
+    float: left;
+    padding:0 2%;
+    height:100%;
+    line-height:100%;
+}
+.header .headerContent .headerContentNav .navTop li a{
+    font-size:14px;
+    color:black;
+}
+.header .headerContent .headerContentNav .navTop li:nth-child(1){
+    padding-left: 0;
+}
+.header .headerContent .headerContentNav .navTop li:last-child{
+    padding-right:0;
+}
+.header .headerContent .headerContentNav .navTop li:nth-child(odd){
+    padding:0px;
+    width:17px;
+    margin-top:1px;
+}
+.header .headerContent .headerContentNav .navTop li:nth-child(1){
+    background:url(../images/kairui_06.png) no-repeat center center;
+}
+.header .headerContent .headerContentNav .navTop li:nth-child(3){
+    background:url(../images/kairui_09.png) no-repeat center center;
+}
+.header .headerContent .headerContentNav .navTop li:nth-child(5){
+    background:url(../images/kairui_12.png) no-repeat center center;
+}
+.header .headerContent .headerContentNav .navTop li:nth-child(7){
+    background:url(../images/kairui_14.png) no-repeat center center;
+}
+.header .headerContent .headerContentNav .navTop li:nth-child(9){
+    background:url(../images/kairui_16.png) no-repeat center center;
+}
+.clearfix::before,.clearfix::after{
+    display: table;
+    content:'';
+}
+.clearfix::after{
+    clear:both;
+}
+.header .headerContent .headerContentNav .navBottom{
+    float: right;
+    height: 49.2%;
+    width:94%;
+}
+.header .headerContent .headerContentNav .navBottom li{
+    padding:0 3.4%;
+    float:right;
+    height:100%;
+    line-height:100%;
+}
+.header .headerContent .headerContentNav .navBottom li a{
+    font-size:14px;
+    color:#000;
+}
+.header .headerContent .headerContentNav .navBottom li:nth-child(1){
+    padding-right:0;
+}
+/* 头部结束 */
+.center{
+    height:614px;
+    background:url(../images/kairui_24.png) center top;
+}
+.footer{
+    height:68px;
+    background-color:#363636;
+}
+.footer .footerContent{
+    height:28px;
+    width:790px;
+    padding:20px 0 20px 210px;
+}
+.footer .footerContent .link{
+    height:78.5%;
+    width:45.3%;
+}
+.footer .footerContent .link li{
+    float: left;
+   padding:0 8px;
+   
+}
+.footer .footerContent .link li a{
+    margin-top:6px;
+    float: left;
+    height: 100%;
+    width:100%;
+    font-size:14px;
+    color:#fff;
+}
+.footer .footerContent .link span{
+    float: left;
+    width:0px;
+    height:12px;
+    border:1px solid #fff;
+    margin-top:9px;
+}
+.footer .footerContent .link li:hover a{
+    color:#3293d7;
+}
+.footer .footerContent p{
+    font-size:14px;
+    margin-top:-17px;
+}
+.footer .footerContent img{
+    height: 21px;;
+    float:right;
+    margin-top:-21px;
+}

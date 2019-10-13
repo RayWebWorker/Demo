@@ -1,0 +1,37 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+body{
+    background-color:#ccc;
+}
+.big{
+    width: 800px;
+    height:450px;
+    margin:0 auto;
+    /* overflow:hidden; */
+    border:1px solid skyblue;
+    position:relative;
+}
+.big img{
+    position:absolute;
+    top:0;
+    left:0;
+}
+ul{
+    width:2000px;
+    height:80px;
+    padding-top:10px;
+}
+ul li{
+    float: left;
+    margin:0 10px;
+}
+.small{
+    width:100%;
+    overflow:auto;
+}
+.big img:target{
+    z-index:5;
+}

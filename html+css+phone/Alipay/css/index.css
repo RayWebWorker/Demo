@@ -1,0 +1,129 @@
+*{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    font-size:12px;
+}
+html,body{
+    width:100%;
+}
+body{
+    display: flex;
+    flex-direction:column;
+}
+header{
+    /* width: 750px; */
+    height: 47.74vw;
+    background-color: #3f454f;
+    display:flex;
+    justify-content:space-around;
+}
+section{
+    flex:1;
+    overflow: auto;
+    /* background-color: yellowgreen; */
+}
+footer{
+    height: 13.2vw;
+    /* width:750px; */
+    border-top:1px solid #d9d9d9;
+    position:fixed;
+    bottom:0;
+}
+header span{
+    height:20.3vw;
+    align-self: flex-end;
+    display: flex;
+    flex-direction:column;
+}
+.contain{
+    height: 1000px;
+}
+header span .iconfont{
+   font-size:9.4vw;
+   color:#fff;
+}
+header span p{
+    padding-top:3.86vw;
+    font-size:3.4vw;
+    text-align: center;
+    color:#fff;
+}
+header .qyq{
+    width: 9.1vw;
+    height: 9.1vw;
+    border-radius:50%;
+    border:3px solid #fff;
+}
+.contain .first{
+    height: 540px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-start;
+}
+.contain .first li{
+    width:24.7vw;
+    height:23.86vw;
+    text-align: center;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc;
+}
+.contain .first li i{
+    font-style:normal;
+    font-size:7.06vw;
+}
+.contain .first li:nth-child(1) i{
+    color:#2eb3e8;
+}
+.contain .first li p{
+    padding-top:3.2vw;
+}
+.contain .first li:nth-child(2) i{
+    color:#f96268;   
+}
+.contain .first li:nth-child(3) i{
+    color:#f96268;   
+}
+.contain .first li:nth-child(4) i{
+    color:#2eb3e8;   
+}
+.contain .first li:nth-child(5) i{
+    color:#ffb359;   
+}
+.contain .first li:nth-child(6) i{
+    color:#36bc99;   
+}
+.contain .first li:nth-child(7) i{
+    color:#ffb359;   
+}
+.contain .first li:nth-child(8) i{
+    color:#f96268;   
+}
+.contain .first li:nth-child(9) i{
+    color:#2eb3e8;   
+}
+.contain .first li:nth-child(10) i{
+    color:#f96268;   
+}
+.contain .first li:nth-child(11) i{
+    color:#f15a4a;   
+}
+.contain .first li:nth-child(12) i{
+    color:#2eb3e8;   
+}
+
+footer .footerContent{
+    display:flex;
+}
+footer .footerContent li{
+    width:25vw;
+}
+footer .footerContent p{
+    text-align: center;
+}
