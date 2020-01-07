@@ -6,7 +6,7 @@
 
 
 
-# html+css+css
+# html+css+js
 
 ````
 静态移动端效果
